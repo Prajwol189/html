@@ -145,6 +145,7 @@ body {
 
 li:first-child {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 li:last-child {
@@ -196,7 +197,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  
   display: inline-block;
 }
 
@@ -264,6 +265,7 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+/*
 .author-img {
   padding-left: 10px;
   float: left;
@@ -298,4 +300,53 @@ aside {
 }
 footer {
   clear: both;
+}
+*/
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+.author{
+  margin-right: 0px;
+  margin-left: 15px;
+}
+.related-post{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+.related-author{
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.related-author{
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+.realated-link:link{
+  font-size: 17px;
+  font-weight: bold;
+  font-style:normal;
+display: block;
+}
+.row{
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+article{
+  flex: 0 0 825;
+}
+aside{
+  flex:0 0 300px;
+  align-items: space;
 }
